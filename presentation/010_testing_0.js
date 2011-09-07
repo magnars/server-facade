@@ -1,0 +1,5 @@
+/* Trivelig testing
+*/
+
+var advantages = [
+];

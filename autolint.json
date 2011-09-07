@@ -1,0 +1,10 @@
+{
+  "paths": [ "src/*.js" ],
+  "linterOptions": {
+    "browser": true,
+    "onevar": false,
+    "indent": 2,
+    "predef": [ "jQuery", "JZ", "alert" ]
+  },
+  "excludes": [ "function.bind.js" ]
+}
