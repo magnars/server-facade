@@ -1,6 +1,6 @@
 Ryddig kode og trivelig testing ved å wrappe ajax-kallene dine
 ==============================================================
-Her er koden og slides for min JavaZone-lyntale.
+Her er koden og slides for min JavaZone-lyntale, og [her kan du se videoen](http://vimeo.com/28764670).
 
 Hva gjør jeg for å bruke serverFacade?
 --------------------------------------
@@ -14,8 +14,8 @@ Start med å dra inn `ajax-wrapper.js` og `server-facade.js` i prosjektet.
 Du kan bygge ut `ajaxWrapper` og `serverFacade` med `getJSON`, `get` og `post` om du
 skulle ha brukt for dem.
 
-Hvorfor er ikke denne koden klin lik slidesene?
------------------------------------------------
+Hvorfor er ikke denne koden klin lik som i presentasjonen?
+----------------------------------------------------------
 
 Ti minutter er søren ikke mye tid. 
 
@@ -26,19 +26,19 @@ default timeout, contentType og globale feilhåndteringsfunksjoner.
 Derfor har jeg delt den opp i en `ajaxWrapper` som tar seg av wrapping og oversetting,
 mens `serverFacade` tar seg av globale settings.
 
-Det ble før klønete å forklare i en fei, så det.
+Det ble for klønete å forklare i en fei, så det.
 
 
 Hvordan kan jeg kjøre testene?
 ------------------------------
 
 For å kjøre testene trenger du [buster.js](http://busterjs.org) installert. Versjonen
-som ligger i npm er ikke helt stabil om dagen, men det løser seg forhåpentligvis fort. Da
-skal det holde å skrive
+som ligger i npm er ikke helt stabil om dagen, men det løser seg forhåpentligvis fort.
+
+Gitt at du har [npm](http://npmjs.org) og [node](http://nodejs.org) installert skal
+det holde å skrive
 
     npm install -g buster
-    
-Gitt at du har [npm](http://npmjs.org) og [node](http://nodejs.org) installert.
 
 Da kjører du de enklest etterpå med
   
