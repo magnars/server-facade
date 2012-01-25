@@ -21,7 +21,7 @@ var JZ = this.JZ || {};
   function getOptions(url, params) {
     return $.extend({
       url: url,
-      params: params
+      data: params
     }, this.getDefaultOptions());
   }
   
